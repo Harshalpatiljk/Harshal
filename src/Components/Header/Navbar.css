@@ -1,0 +1,93 @@
+.wrapper{
+    width: 80vw;
+    /* border: 1.5px; */
+    border-color: rgb(197, 226, 31);
+    border-style: solid;
+    box-sizing: border-box;
+    box-shadow:black ;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 3px 6px;
+    padding: 3px;
+    cursor: pointer;
+    border: 1px solid grey;
+    color: white;
+    background-color: rgb(42, 39, 39);
+    border-radius: 5px ;
+    
+}
+nav h1{
+    display: inline-block;
+    color: pink;
+    font-size: 25px;
+    font-weight: 700;
+    margin-right: 2vw;
+   
+}
+nav ul li:hover{
+    color: orange;
+}
+nav{
+    width:80vw;
+    display: inline-block;
+   
+}
+nav ul img{
+    display: inline-block;
+    height:4vh;
+    width: 4vw;
+    margin-right: 0.5vw;
+    cursor: pointer;
+    background-color: white;
+}
+.searchBox{
+display: inline-block;
+position: absolute;
+top: 2.7vh;
+right: 17vw;
+}
+.searchBox input{
+display: inline-block;
+width: 30vw;
+height: 2.8vh;
+border-radius: 3px;
+background-color: rgb(231, 222, 222);
+color: black;
+font-size: 18px;
+outline: none;
+margin-right: -5.8vw;
+border-radius: 7px ;
+}
+button{
+   
+    display: inline-block;
+    width: auto;
+    height: 3vh;
+    border-radius: 7px ;
+    background-color: rgb(6, 6, 244);
+    color: white;
+    font-weight: bold;
+    outline: none;
+    cursor: pointer;
+}
+.cart{
+    display: inline-block; 
+    position:absolute;
+    top: 2vh;
+    right: 4vw;
+}
+.cart img{
+        margin: 3px 2px;
+        height: 6vh;
+        width: auto;
+        text-align: center;
+        cursor: pointer;
+        
+    }
+        
+    

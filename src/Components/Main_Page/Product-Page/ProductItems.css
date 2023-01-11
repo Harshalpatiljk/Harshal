@@ -1,0 +1,16 @@
+.ProductItem{
+    height:40vh ;
+    width: 30vw;
+    display: inline-block;
+    margin:5vw 1vw;
+    text-align: center;
+   
+ }
+ .ProductImage{
+     height: 60%;
+     width: 40%;
+ }
+ #addToCart{
+     height:10% ;
+     width: 40%;
+ }

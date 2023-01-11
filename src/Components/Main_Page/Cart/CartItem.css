@@ -1,0 +1,27 @@
+table{
+    height: auto;
+    width: 100%;
+    
+    display: inline-block;
+}
+#remove{
+width: auto;
+display: inline-block;
+}
+#cartItemImage{
+height:auto;
+width:12%;
+margin-right: 5%;
+/* position: relative; */
+/* right:35%; */
+}
+#cartItemName{
+    width: 60%;
+    display: inline-block;
+}
+#quantity{
+    display: inline-block;
+    margin-left: 2.5%;
+    margin-bottom:1% ;
+    padding-bottom: 1%;
+}
